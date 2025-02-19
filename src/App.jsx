@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useEffect } from 'react';
+import Swal from 'sweetalert2';
 
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
     {
       e.preventDefault();
       setSubmit(true)
+      e.target.reset();
     }
     
 
@@ -24,6 +26,7 @@ function App() {
       if(submit)
       {
         console.log('form data: ',data)
+        // setSubmit(false)
       }
     
       
@@ -35,6 +38,15 @@ function App() {
     
     <div className="flex  h-screen w-screen  items-center justify-center max-md:flex-col max-md:px-12 max-md:py-5 container bg-[#222222]">
 
+      {
+        submit && Swal.fire({
+          title: "Good job!",
+          text: "You clicked the button!",
+          icon: "success"
+        }).then(()=>{
+          console.log("form data: ", data);
+          setSubmit(false)})
+      }
       <img src="./src/assets/CF4.jpg" alt="" className="rounded-bl-3xl w-[500px] aspect-square max-md:rounded-none"/>
 
         <div className="text-white bg-[#1f242d] py-14 flex flex-col items-center gap-6 px-9 rounded-tr-3xl justify-center">
@@ -69,6 +81,8 @@ function App() {
     </div>
     
   )
+
+
 }
 
 export default App
