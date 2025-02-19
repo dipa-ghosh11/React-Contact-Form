@@ -40,8 +40,8 @@ function App() {
 
       {
         submit && Swal.fire({
-          title: "Good job!",
-          text: "You clicked the button!",
+          title: "Success!",
+          text: "Message sent successfully!",
           icon: "success"
         }).then(()=>{
           console.log("form data: ", data);
