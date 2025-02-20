@@ -74,7 +74,7 @@ function App() {
       {/* {
         
       } */}
-      <img src="./src/assets/CF4.jpg" alt="" className="rounded-bl-3xl w-[500px] aspect-square max-md:rounded-none"/>
+      <img src="image.jpg" alt="" className="rounded-bl-3xl w-[500px] aspect-square max-md:rounded-none"/>
 
         <div className="text-white bg-[#1f242d] py-14 flex flex-col items-center gap-6 px-9 rounded-tr-3xl justify-center">
           <h1 className="text-5xl font-bold text-white max-md:text-3xl">Contact Us</h1>
