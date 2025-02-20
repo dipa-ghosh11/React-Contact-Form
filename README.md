@@ -14,7 +14,8 @@ This is a simple **Contact Form** built using **React.js**. The form validates u
 - **Tailwind CSS**
 - **SweetAlert2** (for success message popup)
 
-🔗 [Live Demo]([https://your-live-demo-link.com](https://react-contact-form-gamma.vercel.app/)
+🔗 [Live Demo](https://react-contact-form-gamma.vercel.app/)
+
 
 ## 📌 Usage
 1. **Enter your details** (Name, Email, and Message).
