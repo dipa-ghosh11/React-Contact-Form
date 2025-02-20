@@ -2,8 +2,6 @@
 
 This is a simple **Contact Form** built using **React.js**. The form validates user input and displays success or error messages using **SweetAlert2**.
 
----
-
 ## 🚀 Features
 - **Live form validation** (Name, Email, Message)
 - **Error messages for invalid input**
@@ -11,19 +9,12 @@ This is a simple **Contact Form** built using **React.js**. The form validates u
 - **Fully responsive design**
 - **Styled with Tailwind CSS**
 
----
-
 ## 🛠️ Technologies Used
 - **React.js**
 - **Tailwind CSS**
 - **SweetAlert2** (for success message popup)
 
----
-
-
 Deployed link:  `(https://react-contact-form-gamma.vercel.app/)`.
-
----
 
 ## 📌 Usage
 1. **Enter your details** (Name, Email, and Message).
@@ -32,23 +23,10 @@ Deployed link:  `(https://react-contact-form-gamma.vercel.app/)`.
 4. On successful submission, a **popup message** will appear.
 5. The form resets after submission.
 
----
-
 ## 📝 Validation Rules
 - **Name:** Required, minimum 3 characters.
 - **Email:** Required, valid email format.
 - **Message:** Required, minimum 10 characters.
-
----
-
-## 📸 Screenshot
-![Contact Form UI](https://your-image-url.com)
-
----
-
-
-
----
 
 ## 📌 Dependencies Used
 ```json
@@ -57,8 +35,8 @@ Deployed link:  `(https://react-contact-form-gamma.vercel.app/)`.
   "sweetalert2": "^11.0.0",
   "tailwindcss": "^3.0.0"
 }
-```
 
----
+
+
 
 
